@@ -123,6 +123,46 @@ namespace CASInterfaceService.Pages.Models
             set { SpecialHandling = value; }
         }
 
+        String BankNumber;
+        [MaxLength(4)]
+        public String bankNumber
+        {
+            get { return BankNumber; }
+            set { BankNumber = value; }
+        }
+
+        String BranchNumber;
+        [MaxLength(5)]
+        public String branchNumber
+        {
+            get { return BranchNumber; }
+            set { BranchNumber = value; }
+        }
+
+        String AccountNumber;
+        [MaxLength(12)]
+        public String accountNumber
+        {
+            get { return AccountNumber; }
+            set { AccountNumber = value; }
+        }
+
+        String EFTAdvice;
+        [MaxLength(1)]
+        public String eftAdvice
+        {
+            get { return EFTAdvice; }
+            set { EFTAdvice = value; }
+        }
+
+        String Email;
+        [MaxLength(35)]
+        public String email
+        {
+            get { return Email; }
+            set { Email = value; }
+        }
+
         String NameLine1;
         [MaxLength(40)]
         public String nameLine1

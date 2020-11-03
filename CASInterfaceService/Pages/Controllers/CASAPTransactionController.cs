@@ -77,7 +77,7 @@ namespace CASInterfaceService.Pages.Controllers
                 var formData = new List<KeyValuePair<string, string>>();
                 formData.Add(new KeyValuePair<string, string>("grant_type", "client_credentials"));
 
-                Console.WriteLine(DateTime.Now + " Add credentials");
+                 Console.WriteLine(DateTime.Now + " Add credentials");
                 request.Content = new FormUrlEncodedContent(formData);
                 var response = await client.SendAsync(request);
 
