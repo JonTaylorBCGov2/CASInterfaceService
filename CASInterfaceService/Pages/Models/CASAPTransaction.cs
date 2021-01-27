@@ -149,7 +149,7 @@ namespace CASInterfaceService.Pages.Models
 
         String EFTAdvice;
         [MaxLength(1)]
-        public String eftAdvice
+        public String eftAdviceFlag
         {
             get { return EFTAdvice; }
             set { EFTAdvice = value; }
@@ -157,7 +157,7 @@ namespace CASInterfaceService.Pages.Models
 
         String Email;
         [MaxLength(35)]
-        public String email
+        public String eftEmailAddress
         {
             get { return Email; }
             set { Email = value; }
